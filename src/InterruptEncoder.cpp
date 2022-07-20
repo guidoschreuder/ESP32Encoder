@@ -1,3 +1,5 @@
+#ifdef ARDUINO
+
 /*
  * InterruptEncoder.cpp
  *
@@ -38,3 +40,4 @@ void InterruptEncoder::attach(int aPinNum, int bPinNum) {
 	attachInterruptArg(digitalPinToInterrupt(apin), encoderAISR,this, CHANGE);
 }
 
+#endif // ARDUINO

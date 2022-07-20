@@ -1,3 +1,5 @@
+#ifdef ARDUINO
+
 /*
  * InterruptEncoder.h
  *
@@ -34,3 +36,5 @@ public:
 };
 
 #endif /* INTERRUPTENCODER_H_ */
+
+#endif // ARDUINO
