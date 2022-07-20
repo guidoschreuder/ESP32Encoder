@@ -231,6 +231,8 @@ void ESP32Encoder::attach(int a, int b, enum encType et) {
 	pcnt_intr_enable(unit);
 	pcnt_counter_resume(unit);
 
+	attached = true;
+
 }
 
 void ESP32Encoder::attachHalfQuad(int aPintNumber, int bPinNumber) {
