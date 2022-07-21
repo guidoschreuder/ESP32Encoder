@@ -1,0 +1,22 @@
+{
+  "name": "ESP32Encoder",
+  "keywords": "Device Control, quadrature, encoder",
+  "description": "Encoder library for the ESP32 using interrupts. This library supports quadrature and half quadrature",
+  "url": "https://github.com/guidoschreuder/ESP32Encoder",
+  "include": "ESP32Encoder",
+  "authors":
+  [
+    {
+      "name": "Kevin Harrington"
+    },
+    {
+      "name": "Guido Schreuder"
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/guidoschreuder/ESP32Encoder"
+  },
+  "frameworks": "*"
+}
