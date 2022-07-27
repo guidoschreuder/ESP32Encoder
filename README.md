@@ -21,7 +21,7 @@ This hardware peripheral supports only 8 encoders.
 To specify the weak pull resistor set the value [useInternalWeakPullResistors](https://madhephaestus.github.io/ESP32Encoder/classESP32Encoder.html#a53dc40c9de240e90a55b427b32da451f) with the enum types [UP, DOWN, or NONE](https://madhephaestus.github.io/ESP32Encoder/ESP32Encoder_8h.html#adca399663765c125d26e6f2896b5b349)
 
 ## ISR service CPU core
-To specify the CPU core for the PCNT ISR service set the value `isrServiceCpuCore` to the desired core number. This can be usefull to prevent concurrency problems where the total count might not be updated correctly yet while it is read.
+To specify the CPU core for the PCNT ISR service set the value [isrServiceCpuCore](https://madhephaestus.github.io/ESP32Encoder/classESP32Encoder.html#a445e515b31ade19658075aa7417086bb) to the desired core number. This can be usefull to prevent concurrency problems where the total count might not be updated correctly yet while it is read.
 
 # A note on KY-040 and similar
 
